@@ -1,0 +1,35 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Native Discord Game SDK binaries (do not commit)
+Assets/Plugins/**/discord_game_sdk.dll
+Assets/Plugins/**/libdiscord_game_sdk.dylib
+Assets/Plugins/**/libdiscord_game_sdk.so
+
+# Editor-only generated
+Assets/Plugins/**/*.meta
